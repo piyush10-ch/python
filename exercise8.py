@@ -3,10 +3,10 @@
 # example -1256
 # calculate 1+2+3+4 and print
 
-n = input("enter any number: ")
-n1 =int(n[0])
-n2=int(n[1])
-n3=int(n[2])
-n4=int(n[3])
-total=(n1+n2+n3+n4+len(n-1))
+number = input("enter a number ")
+total=0
+i = 0
+while i < len(number):
+    total += int(number[i])
+    i  += 1
 print(total)
